@@ -1,0 +1,20 @@
+{
+    "name": "liliuwei/php-sitemap",
+    "description": "PHP 网站地图 Sitemap工具类",
+    "keywords": ["php", "sitemap", "xml"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liliuwei",
+            "email": "974829947@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "liliuwei\\sitemap\\": "src/"
+        }
+    }
+}
