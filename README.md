@@ -14,7 +14,7 @@ composer require liliuwei/php-sitemap
 
 ~~~php
 <?php
-$site = new Sitemap();
+$site = new \liliuwei\Sitemap();
 $cate = [
     1 => '男装',
     2 => '女装'
