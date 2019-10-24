@@ -149,22 +149,22 @@ class Sitemap
 }
 
 //使用方法
-$site = new Sitemap();
-$cate = [
-    1 => '男装',
-    2 => '女装'
-];
-
-$article_list = [
-    1 => '怎么穿衣服有气质  教你身材不好也可以穿出女神范',
-    2 => '秋冬穿衣搭配图片  秋冬季内搭和大衣要如何搭配呢'
-];
-foreach ($cate as $key => $value) {
-    $site->AddItem('http://www.youqunaya.com/list.html?cid=' . $key, 1);
-}
-
-foreach ($article_list as $key => $value) {
-    $site->AddItem('http://www.youqunaya.com/article_list.html?id=' . $key, 1);
-}
-//$site->AddItem();支持多次调用
-$site->SaveToFile('sitemap.xml');
+//$site = new Sitemap();
+//$cate = [
+//    1 => '男装',
+//    2 => '女装'
+//];
+//
+//$article_list = [
+//    1 => '怎么穿衣服有气质  教你身材不好也可以穿出女神范',
+//    2 => '秋冬穿衣搭配图片  秋冬季内搭和大衣要如何搭配呢'
+//];
+//foreach ($cate as $key => $value) {
+//    $site->AddItem('http://www.youqunaya.com/list.html?cid=' . $key, 1);
+//}
+//
+//foreach ($article_list as $key => $value) {
+//    $site->AddItem('http://www.youqunaya.com/article_list.html?id=' . $key, 1);
+//}
+////$site->AddItem();支持多次调用
+//$site->SaveToFile('sitemap.xml');
